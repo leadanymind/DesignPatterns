@@ -8,6 +8,8 @@ namespace BuilderPattern
 {
     public class DroidBuilder : IRobotBuilder
     {
+        // This class is meant to be a template for a specific type of robot. In this case, this is a droid builder.
+        // There are many different types of robots that have their own specifications for each method.
 
         private Robot robot;
 

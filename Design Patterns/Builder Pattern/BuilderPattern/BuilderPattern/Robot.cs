@@ -8,6 +8,9 @@ namespace BuilderPattern
 {
     public class Robot : IRobotSchematics
     {
+        // Simple yet verbose schema/object that encapsulates the essentials of a basic robot.
+        // Meant to capture all the components of the object.
+
         private string robotHead;
         private string robotArms;
         private string robotTorso;
